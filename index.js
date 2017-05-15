@@ -20,12 +20,11 @@ personForm.onsubmit = (ev) => {
 
     const em = document.createElement('em');
     em.textContent = personName;
+    details.appendChild(em);
     
-    //details.appendChild(em);
-    
-    details.innerHTML = `<ul> <li> Name: ${personName} </li> 
-                            <li> Hair Color: ${colorDiv} </li> 
-                            <li> Age: ${age} </li> 
-                            <li> Birthplace: ${birthplace} </li>`;
+    // details.innerHTML = `<ul> <li> Name: ${personName} </li> 
+    //                         <li> Hair Color: ${colorDiv} </li> 
+    //                         <li> Age: ${age} </li> 
+    //                         <li> Birthplace: ${birthplace} </li>`;
 
 }
